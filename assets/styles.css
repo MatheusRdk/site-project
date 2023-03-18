@@ -114,6 +114,53 @@ header {
     filter: grayscale(0);
 } 
 
+/*Habilidades*/
+.habilidades {
+    text-align: center;
+    align-items: center;
+}
+
+.border {
+    border-top: #030303 .4px solid;
+}
+
+.habilidades h2 {
+    font-family: 'Satisfy', cursive;
+    margin-top: 3rem;
+    font-size: 2rem;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgb(235, 133, 17) 23%, rgba(255,0,0,1) 88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+.tecnologias {
+    padding: 5rem;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 3rem;
+}
+
+.tecnologias #HTML, #CSS, #Python, #SQL, #MachineLearning, #PowerBI {
+    font-size: x-large;
+    line-height: 3rem;
+}
+
+.tecnologias img {
+    width: 70%;
+    filter: grayscale(0);
+    transition: all 170ms ease-in-out;
+}
+
+.tecnologias img:hover, .tecnologias img:focus {
+    width: 80%;
+}
+
 /*Rodapé*/
 footer {
     font-weight: 1000;
