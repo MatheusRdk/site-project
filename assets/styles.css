@@ -1,16 +1,16 @@
 /*Fonte*/
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Space+Grotesk&display=swap');
 
 *{
     padding : 0;
     margin : 0;
     box-sizing : border-box;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
     flex-wrap: wrap;
-    background: linear-gradient(45deg, #fcfcfc, #68686838) ;
+    background: linear-gradient(45deg, #fcfcfc, #f5f5f538) ;
 }
 
 /*Cabeçalho*/
@@ -25,16 +25,16 @@ header {
     padding: 6rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    text-align: center;
+    text-align: left;
     font-size: x-large;
     line-height: 3rem;
 }
 
 .header-text h1 {
-    font-family: 'Satisfy', cursive;
+    text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(255,155,44,1) 23%, rgba(255,0,0,1) 88%);
+    background: linear-gradient(90deg, rgb(184, 14, 14) 4%, rgb(214, 212, 209) 23%, rgb(10, 71, 40) 88%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent
@@ -97,22 +97,15 @@ header {
     line-height: 3rem;
     font-size: small;
     color: #000000;
-    font-family: 'Ubuntu', sans-serif;
     flex-grow: 1;
 }
 
 .container-image img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    filter: grayscale(1);
-    transition: all 500ms ease-in-out;
 }
-
-.container-image img:hover, .container-image img:focus {
-    filter: grayscale(0);
-} 
 
 /*Habilidades*/
 .habilidades {
@@ -125,10 +118,9 @@ header {
 }
 
 .habilidades h2 {
-    font-family: 'Satisfy', cursive;
     margin-top: 3rem;
     font-size: 2rem;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgb(235, 133, 17) 23%, rgba(255,0,0,1) 88%);
+    background: linear-gradient(90deg, rgb(184, 14, 14) 4%, rgb(214, 212, 209) 23%, rgb(10, 71, 40) 88%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent
@@ -152,17 +144,17 @@ header {
 }
 
 .tecnologias img {
-    width: 70%;
-    filter: grayscale(0);
+    width: 75%;
     transition: all 170ms ease-in-out;
 }
 
 .tecnologias img:hover, .tecnologias img:focus {
-    width: 80%;
+    width: 100%;
 }
 
 /*Rodapé*/
 footer {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
     padding: 100px;
     text-align: center;
